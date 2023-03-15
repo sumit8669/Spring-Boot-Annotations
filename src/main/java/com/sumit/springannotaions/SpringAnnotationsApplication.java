@@ -13,7 +13,6 @@ public class SpringAnnotationsApplication {
 		var context = SpringApplication.run(SpringAnnotationsApplication.class, args);
 		BurgerController br= (BurgerController) context.getBean("burgerController");
 		System.out.println(br.getBurger());
-		System.out.println(br.getChickenBurger());
 	}
 
 }
