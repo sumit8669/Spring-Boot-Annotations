@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class BurgerController {
 
-    //@Autowired
+
     private  Burger burger;
 
-
+    @Autowired
     public BurgerController(@Qualifier("chickenBurger")Burger burger){
         this.burger = burger;
     }
