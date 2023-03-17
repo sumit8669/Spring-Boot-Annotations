@@ -1,5 +1,6 @@
 # Spring-Boot-Annotations
-@Component: This annotation is used to mark a class as a Spring bean. When Spring's component scanning feature is enabled, it will automatically detect and register any classes marked with this annotation.
+## @Component: 
+This annotation is used to mark a class as a Spring bean. When Spring's component scanning feature is enabled, it will automatically detect and register any classes marked with this annotation.
 
 @Autowired: This annotation is used to inject dependencies into a Spring bean. When a bean is created, Spring will automatically look for other beans that match the type of the dependency and inject them.
 
